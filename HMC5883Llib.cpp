@@ -21,6 +21,9 @@ int8_t Magnetometer::begin()
     uint8_t buff[3];
     i2cAddr_ = HMC5833L_I2CADD;
 
+    // Join the I2C bus as master
+    WIRE.begin();
+
     // read the ID registers
     if (i2cReadBytes(HMC5833L_REG_IDA, buff, 3) != 0) 
         return HMC5833L_ERROR_I2CREAD;

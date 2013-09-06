@@ -22,7 +22,7 @@ void setup()
 
     // set the amount of gain
     // 
-    // MSB/Gauss   Field Range
+    // LSB/Gauss   Field Range
     // 1370     +- 0.88 Ga
     // 1090     +- 1.3 Ga
     // 820      +- 1.9 Ga
