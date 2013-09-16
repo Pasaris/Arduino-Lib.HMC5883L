@@ -7,3 +7,6 @@ It will work with any HMC5883L device over I2C.
 *  Reading Raw three axis data
 *  Reading floating point three axis data in Gauss
 *  Gain Adjustments
+
+## Documentation
+* [Generated docs here](http://blaisejarrett.github.com/Arduino-Lib.HMC5883L)
